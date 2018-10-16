@@ -1,0 +1,30 @@
+蓝牙串口 TX PA9 接蓝牙RX
+         RX PA10 接蓝牙TX
+MPU6050串口 TX PA2 接6050RX
+            RX PA3  接6050TX
+超声波测距模块 ECHO PA0
+               TRIG PB8
+四路PWM PA6前 PA7后 PB0左 PB1右
+四路外部中断 PB5 把DO,D1,D2,D3连起来接到PB5
+LED B12 B13
+中断优先级问题
+TIM5输入捕获 抢占优先级 2 响应优先级 2
+TIM4 抢占优先级 3 响应优先级 3
+外部中断2 分别对应 6
+TIM2更新中断 1
+
+USART1 USART2使用中断4 5
+
+
+
+
+
+
+
+
+
+
+
+
+
+

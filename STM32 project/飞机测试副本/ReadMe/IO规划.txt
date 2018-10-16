@@ -1,0 +1,24 @@
+蓝牙串口 PA9 接蓝牙RX
+         PA10 接蓝牙TX
+MPU6050串口 PB10 接6050 SCL
+            PB11 接6050 SDA
+超声波测距模块 ECHO 接PA0
+               TRIG 接PC15
+四路PWM PA6前 PA7后 PB0左 PB1右
+四路外部中断 PB5 把DO接到PB5
+LED B12 B13 各加一个470欧姆的电阻
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

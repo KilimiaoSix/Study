@@ -1,0 +1,89 @@
+﻿  LEDBlink.c
+  system_stm32f4xx.c
+  startup_stm32f407xx.c
+  misc.c
+  stm32f4xx_adc.c
+  stm32f4xx_can.c
+  stm32f4xx_cec.c
+  stm32f4xx_crc.c
+  C:/Users/administered/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F4xxxx/STM32F4xx_StdPeriph_Driver/src/misc.c: In function 'NVIC_PriorityGroupConfig':
+C:\Users\administered\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F4xxxx\STM32F4xx_StdPeriph_Driver\src\misc.c(121,3): warning :  implicit declaration of function 'assert_param' [-Wimplicit-function-declaration]
+     assert_param(IS_NVIC_PRIORITY_GROUP(NVIC_PriorityGroup));
+     ^~~~~~~~~~~~
+  C:/Users/administered/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F4xxxx/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.c: In function 'ADC_Init':
+C:\Users\administered\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F4xxxx\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_adc.c(240,3): warning :  implicit declaration of function 'assert_param' [-Wimplicit-function-declaration]
+     assert_param(IS_ADC_ALL_PERIPH(ADCx));
+     ^~~~~~~~~~~~
+  stm32f4xx_cryp.c
+  C:/Users/administered/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F4xxxx/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_can.c: In function 'CAN_DeInit':
+C:\Users\administered\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F4xxxx\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_can.c(170,3): warning :  implicit declaration of function 'assert_param' [-Wimplicit-function-declaration]
+     assert_param(IS_CAN_ALL_PERIPH(CANx));
+     ^~~~~~~~~~~~
+  stm32f4xx_cryp_aes.c
+  stm32f4xx_cryp_des.c
+  stm32f4xx_cryp_tdes.c
+  stm32f4xx_dac.c
+  stm32f4xx_dbgmcu.c
+  stm32f4xx_dcmi.c
+  stm32f4xx_dfsdm.c
+  C:/Users/administered/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F4xxxx/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp.c: In function 'CRYP_Init':
+C:\Users\administered\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F4xxxx\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp.c(238,3): warning :  implicit declaration of function 'assert_param' [-Wimplicit-function-declaration]
+     assert_param(IS_CRYP_ALGOMODE(CRYP_InitStruct->CRYP_AlgoMode));
+     ^~~~~~~~~~~~
+  C:/Users/administered/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F4xxxx/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.c: In function 'DAC_Init':
+C:\Users\administered\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F4xxxx\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dac.c(211,3): warning :  implicit declaration of function 'assert_param' [-Wimplicit-function-declaration]
+     assert_param(IS_DAC_TRIGGER(DAC_InitStruct->DAC_Trigger));
+     ^~~~~~~~~~~~
+  C:/Users/administered/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F4xxxx/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dbgmcu.c: In function 'DBGMCU_Config':
+C:\Users\administered\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F4xxxx\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dbgmcu.c(87,3): warning :  implicit declaration of function 'assert_param' [-Wimplicit-function-declaration]
+     assert_param(IS_DBGMCU_PERIPH(DBGMCU_Periph));
+     ^~~~~~~~~~~~
+  stm32f4xx_dma.c
+  stm32f4xx_dma2d.c
+  C:/Users/administered/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F4xxxx/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dcmi.c: In function 'DCMI_Init':
+C:\Users\administered\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F4xxxx\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dcmi.c(148,3): warning :  implicit declaration of function 'assert_param' [-Wimplicit-function-declaration]
+     assert_param(IS_DCMI_CAPTURE_MODE(DCMI_InitStruct->DCMI_CaptureMode));
+     ^~~~~~~~~~~~
+  stm32f4xx_dsi.c
+  stm32f4xx_exti.c
+  stm32f4xx_flash.c
+  stm32f4xx_flash_ramfunc.c
+  stm32f4xx_fmpi2c.c
+  C:/Users/administered/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F4xxxx/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma2d.c: In function 'DMA2D_Init':
+C:\Users\administered\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F4xxxx\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dma2d.c(137,3): warning :  implicit declaration of function 'assert_param' [-Wimplicit-function-declaration]
+     assert_param(IS_DMA2D_MODE(DMA2D_InitStruct->DMA2D_Mode));
+     ^~~~~~~~~~~~
+  C:/Users/administered/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F4xxxx/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.c: In function 'DMA_DeInit':
+C:\Users\administered\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F4xxxx\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dma.c(199,3): warning :  implicit declaration of function 'assert_param' [-Wimplicit-function-declaration]
+     assert_param(IS_DMA_ALL_PERIPH(DMAy_Streamx));
+     ^~~~~~~~~~~~
+  C:/Users/administered/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F4xxxx/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.c: In function 'EXTI_Init':
+C:\Users\administered\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F4xxxx\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_exti.c(131,3): warning :  implicit declaration of function 'assert_param' [-Wimplicit-function-declaration]
+     assert_param(IS_EXTI_MODE(EXTI_InitStruct->EXTI_Mode));
+     ^~~~~~~~~~~~
+  stm32f4xx_fsmc.c
+  C:/Users/administered/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F4xxxx/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash.c: In function 'FLASH_SetLatency':
+C:\Users\administered\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F4xxxx\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_flash.c(280,3): warning :  implicit declaration of function 'assert_param' [-Wimplicit-function-declaration]
+     assert_param(IS_FLASH_LATENCY(FLASH_Latency));
+     ^~~~~~~~~~~~
+  stm32f4xx_gpio.c
+  stm32f4xx_hash.c
+  stm32f4xx_hash_md5.c
+  stm32f4xx_hash_sha1.c
+  C:/Users/administered/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F4xxxx/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fsmc.c: In function 'FSMC_NORSRAMDeInit':
+C:\Users\administered\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F4xxxx\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(132,3): warning :  implicit declaration of function 'assert_param' [-Wimplicit-function-declaration]
+     assert_param(IS_FSMC_NORSRAM_BANK(FSMC_Bank));
+     ^~~~~~~~~~~~
+  C:/Users/administered/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F4xxxx/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fsmc.c: In function 'FSMC_NORSRAMInit':
+C:\Users\administered\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F4xxxx\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(247,28): error :  'FSMC_BWTR1_BUSTURN' undeclared (first use in this function)
+                              FSMC_BWTR1_BUSTURN | FSMC_BWTR1_ACCMOD));
+                              ^~~~~~~~~~~~~~~~~~
+  C:\Users\administered\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F4xxxx\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c(247,28): note :  each undeclared identifier is reported only once for each function it appears in
+  C:/Users/administered/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F4xxxx/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash.c: In function 'HASH_Init':
+C:\Users\administered\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F4xxxx\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash.c(194,3): warning :  implicit declaration of function 'assert_param' [-Wimplicit-function-declaration]
+     assert_param(IS_HASH_ALGOSELECTION(HASH_InitStruct->HASH_AlgoSelection));
+     ^~~~~~~~~~~~
+  C:/Users/administered/AppData/Local/VisualGDB/EmbeddedBSPs/arm-eabi/com.sysprogs.arm.stm32/STM32F4xxxx/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.c: In function 'GPIO_DeInit':
+C:\Users\administered\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.stm32\STM32F4xxxx\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_gpio.c(130,3): warning :  implicit declaration of function 'assert_param' [-Wimplicit-function-declaration]
+     assert_param(IS_GPIO_ALL_PERIPH(GPIOx));
+     ^~~~~~~~~~~~

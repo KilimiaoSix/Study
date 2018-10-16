@@ -1,0 +1,116 @@
+Dependencies for Project 'cjson', Target 'cjson': (DO NOT MODIFY !)
+F (..\USER\cjson.c)(0x5566708A)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\CORE -I..\STM32F0_FWLib\inc -I..\USER-I C:\Code\template\info\营销专家组\电子论坛发帖\cjson\cjson例程\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F030 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\cjson.o --omf_browse .\objects\cjson.crf --depend .\objects\cjson.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5475F2FE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5475F2FA)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x5475F300)
+I (..\USER\cJSON.h)(0x5566708A)
+F (..\USER\main.c)(0x565EF865)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\CORE -I..\STM32F0_FWLib\inc -I..\USER-I C:\Code\template\info\营销专家组\电子论坛发帖\cjson\cjson例程\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F030 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\USER\stm32f0xx.h)(0x56557291)
+I (..\CORE\core_cm0.h)(0x55667086)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CORE\core_cmInstr.h)(0x55667086)
+I (..\CORE\core_cmFunc.h)(0x55667086)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include\system_stm32f0xx.h)(0x548E991E)
+I (..\USER\stm32f0xx_conf.h)(0x56583F9C)
+I (..\STM32F0_FWLib\inc\stm32f0xx_gpio.h)(0x55667084)
+I (..\STM32F0_FWLib\inc\stm32f0xx_rcc.h)(0x55667084)
+I (..\STM32F0_FWLib\inc\stm32f0xx_usart.h)(0x55667084)
+I (..\STM32F0_FWLib\inc\stm32f0xx_misc.h)(0x55667084)
+I (..\USER\Mcu_config.h)(0x565804A6)
+I (..\USER\cJSON.h)(0x5566708A)
+F (..\USER\Mcu_config.c)(0x565804A6)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\CORE -I..\STM32F0_FWLib\inc -I..\USER-I C:\Code\template\info\营销专家组\电子论坛发帖\cjson\cjson例程\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F030 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\mcu_config.o --omf_browse .\objects\mcu_config.crf --depend .\objects\mcu_config.d)
+I (..\USER\stm32f0xx.h)(0x56557291)
+I (..\CORE\core_cm0.h)(0x55667086)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CORE\core_cmInstr.h)(0x55667086)
+I (..\CORE\core_cmFunc.h)(0x55667086)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include\system_stm32f0xx.h)(0x548E991E)
+I (..\USER\stm32f0xx_conf.h)(0x56583F9C)
+I (..\STM32F0_FWLib\inc\stm32f0xx_gpio.h)(0x55667084)
+I (..\STM32F0_FWLib\inc\stm32f0xx_rcc.h)(0x55667084)
+I (..\STM32F0_FWLib\inc\stm32f0xx_usart.h)(0x55667084)
+I (..\STM32F0_FWLib\inc\stm32f0xx_misc.h)(0x55667084)
+I (..\USER\Mcu_config.h)(0x565804A6)
+F (..\USER\stm32f0xx_it.c)(0x5656E983)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\CORE -I..\STM32F0_FWLib\inc -I..\USER-I C:\Code\template\info\营销专家组\电子论坛发帖\cjson\cjson例程\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F030 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\stm32f0xx_it.o --omf_browse .\objects\stm32f0xx_it.crf --depend .\objects\stm32f0xx_it.d)
+I (..\USER\stm32f0xx_it.h)(0x55837F0E)
+I (..\USER\stm32f0xx.h)(0x56557291)
+I (..\CORE\core_cm0.h)(0x55667086)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CORE\core_cmInstr.h)(0x55667086)
+I (..\CORE\core_cmFunc.h)(0x55667086)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include\system_stm32f0xx.h)(0x548E991E)
+I (..\USER\stm32f0xx_conf.h)(0x56583F9C)
+I (..\STM32F0_FWLib\inc\stm32f0xx_gpio.h)(0x55667084)
+I (..\STM32F0_FWLib\inc\stm32f0xx_rcc.h)(0x55667084)
+I (..\STM32F0_FWLib\inc\stm32f0xx_usart.h)(0x55667084)
+I (..\STM32F0_FWLib\inc\stm32f0xx_misc.h)(0x55667084)
+I (..\USER\Mcu_config.h)(0x565804A6)
+F (..\USER\system_stm32f0xx.c)(0x565579E4)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\CORE -I..\STM32F0_FWLib\inc -I..\USER-I C:\Code\template\info\营销专家组\电子论坛发帖\cjson\cjson例程\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F030 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\system_stm32f0xx.o --omf_browse .\objects\system_stm32f0xx.crf --depend .\objects\system_stm32f0xx.d)
+I (..\USER\stm32f0xx.h)(0x56557291)
+I (..\CORE\core_cm0.h)(0x55667086)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CORE\core_cmInstr.h)(0x55667086)
+I (..\CORE\core_cmFunc.h)(0x55667086)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include\system_stm32f0xx.h)(0x548E991E)
+I (..\USER\stm32f0xx_conf.h)(0x56583F9C)
+I (..\STM32F0_FWLib\inc\stm32f0xx_gpio.h)(0x55667084)
+I (..\STM32F0_FWLib\inc\stm32f0xx_rcc.h)(0x55667084)
+I (..\STM32F0_FWLib\inc\stm32f0xx_usart.h)(0x55667084)
+I (..\STM32F0_FWLib\inc\stm32f0xx_misc.h)(0x55667084)
+F (..\CORE\startup_stm32f030.s)(0x557791C7)(--cpu Cortex-M0 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Code\template\info\营销专家组\电子论坛发帖\cjson\cjson例程\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 514" --pd "STM32F030 SETA 1"--list .\listings\startup_stm32f030.lst --xref -o .\objects\startup_stm32f030.o --depend .\objects\startup_stm32f030.d)
+F (..\STM32F0_FWLib\src\stm32f0xx_gpio.c)(0x55667084)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\CORE -I..\STM32F0_FWLib\inc -I..\USER-I C:\Code\template\info\营销专家组\电子论坛发帖\cjson\cjson例程\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F030 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\stm32f0xx_gpio.o --omf_browse .\objects\stm32f0xx_gpio.crf --depend .\objects\stm32f0xx_gpio.d)
+I (..\STM32F0_FWLib\inc\stm32f0xx_gpio.h)(0x55667084)
+I (..\USER\stm32f0xx.h)(0x56557291)
+I (..\CORE\core_cm0.h)(0x55667086)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CORE\core_cmInstr.h)(0x55667086)
+I (..\CORE\core_cmFunc.h)(0x55667086)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include\system_stm32f0xx.h)(0x548E991E)
+I (..\USER\stm32f0xx_conf.h)(0x56583F9C)
+I (..\STM32F0_FWLib\inc\stm32f0xx_rcc.h)(0x55667084)
+I (..\STM32F0_FWLib\inc\stm32f0xx_usart.h)(0x55667084)
+I (..\STM32F0_FWLib\inc\stm32f0xx_misc.h)(0x55667084)
+F (..\STM32F0_FWLib\src\stm32f0xx_misc.c)(0x55667084)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\CORE -I..\STM32F0_FWLib\inc -I..\USER-I C:\Code\template\info\营销专家组\电子论坛发帖\cjson\cjson例程\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F030 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\stm32f0xx_misc.o --omf_browse .\objects\stm32f0xx_misc.crf --depend .\objects\stm32f0xx_misc.d)
+I (..\STM32F0_FWLib\inc\stm32f0xx_misc.h)(0x55667084)
+I (..\USER\stm32f0xx.h)(0x56557291)
+I (..\CORE\core_cm0.h)(0x55667086)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CORE\core_cmInstr.h)(0x55667086)
+I (..\CORE\core_cmFunc.h)(0x55667086)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include\system_stm32f0xx.h)(0x548E991E)
+I (..\USER\stm32f0xx_conf.h)(0x56583F9C)
+I (..\STM32F0_FWLib\inc\stm32f0xx_gpio.h)(0x55667084)
+I (..\STM32F0_FWLib\inc\stm32f0xx_rcc.h)(0x55667084)
+I (..\STM32F0_FWLib\inc\stm32f0xx_usart.h)(0x55667084)
+F (..\STM32F0_FWLib\src\stm32f0xx_rcc.c)(0x55667083)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\CORE -I..\STM32F0_FWLib\inc -I..\USER-I C:\Code\template\info\营销专家组\电子论坛发帖\cjson\cjson例程\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F030 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\stm32f0xx_rcc.o --omf_browse .\objects\stm32f0xx_rcc.crf --depend .\objects\stm32f0xx_rcc.d)
+I (..\STM32F0_FWLib\inc\stm32f0xx_rcc.h)(0x55667084)
+I (..\USER\stm32f0xx.h)(0x56557291)
+I (..\CORE\core_cm0.h)(0x55667086)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CORE\core_cmInstr.h)(0x55667086)
+I (..\CORE\core_cmFunc.h)(0x55667086)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include\system_stm32f0xx.h)(0x548E991E)
+I (..\USER\stm32f0xx_conf.h)(0x56583F9C)
+I (..\STM32F0_FWLib\inc\stm32f0xx_gpio.h)(0x55667084)
+I (..\STM32F0_FWLib\inc\stm32f0xx_usart.h)(0x55667084)
+I (..\STM32F0_FWLib\inc\stm32f0xx_misc.h)(0x55667084)
+F (..\STM32F0_FWLib\src\stm32f0xx_usart.c)(0x55667084)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\CORE -I..\STM32F0_FWLib\inc -I..\USER-I C:\Code\template\info\营销专家组\电子论坛发帖\cjson\cjson例程\Project\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F030 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o .\objects\stm32f0xx_usart.o --omf_browse .\objects\stm32f0xx_usart.crf --depend .\objects\stm32f0xx_usart.d)
+I (..\STM32F0_FWLib\inc\stm32f0xx_usart.h)(0x55667084)
+I (..\USER\stm32f0xx.h)(0x56557291)
+I (..\CORE\core_cm0.h)(0x55667086)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CORE\core_cmInstr.h)(0x55667086)
+I (..\CORE\core_cmFunc.h)(0x55667086)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include\system_stm32f0xx.h)(0x548E991E)
+I (..\USER\stm32f0xx_conf.h)(0x56583F9C)
+I (..\STM32F0_FWLib\inc\stm32f0xx_gpio.h)(0x55667084)
+I (..\STM32F0_FWLib\inc\stm32f0xx_rcc.h)(0x55667084)
+I (..\STM32F0_FWLib\inc\stm32f0xx_misc.h)(0x55667084)

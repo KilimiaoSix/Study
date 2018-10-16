@@ -1,0 +1,89 @@
+#include<led.h>
+#include<stm32f4xx.h>
+void LED_Init(void)
+{
+	GPIO_InitTypeDef GPIO_Initstructure;
+	RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOG,ENABLE);
+//F9
+	RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOF,ENABLE);
+	GPIO_Initstructure.GPIO_Mode=GPIO_Mode_OUT;
+	GPIO_Initstructure.GPIO_OType=GPIO_OType_PP;
+	GPIO_Initstructure.GPIO_Pin=GPIO_Pin_9;
+	GPIO_Initstructure.GPIO_PuPd=GPIO_PuPd_UP;
+	GPIO_Initstructure.GPIO_Speed=GPIO_Speed_50MHz;
+	GPIO_Init(GPIOF,&GPIO_Initstructure);
+	GPIO_SetBits(GPIOF,GPIO_Pin_9);
+//F10
+	GPIO_Initstructure.GPIO_Mode=GPIO_Mode_OUT;
+	GPIO_Initstructure.GPIO_OType=GPIO_OType_PP;
+	GPIO_Initstructure.GPIO_Pin=GPIO_Pin_10;
+	GPIO_Initstructure.GPIO_PuPd=GPIO_PuPd_UP;
+	GPIO_Initstructure.GPIO_Speed=GPIO_Speed_50MHz;
+	GPIO_Init(GPIOF,&GPIO_Initstructure);
+		GPIO_SetBits(GPIOF,GPIO_Pin_10);
+//F7
+			GPIO_Initstructure.GPIO_Mode=GPIO_Mode_OUT;
+	GPIO_Initstructure.GPIO_OType=GPIO_OType_PP;
+	GPIO_Initstructure.GPIO_Pin=GPIO_Pin_7;
+	GPIO_Initstructure.GPIO_PuPd=GPIO_PuPd_UP;
+	GPIO_Initstructure.GPIO_Speed=GPIO_Speed_50MHz;
+	GPIO_Init(GPIOF,&GPIO_Initstructure);
+		GPIO_SetBits(GPIOF,GPIO_Pin_7);
+//F6
+	GPIO_Initstructure.GPIO_Mode=GPIO_Mode_OUT;
+	GPIO_Initstructure.GPIO_OType=GPIO_OType_PP;
+	GPIO_Initstructure.GPIO_Pin=GPIO_Pin_6;
+	GPIO_Initstructure.GPIO_PuPd=GPIO_PuPd_UP;
+	GPIO_Initstructure.GPIO_Speed=GPIO_Speed_50MHz;
+	GPIO_Init(GPIOF,&GPIO_Initstructure);
+		GPIO_SetBits(GPIOF,GPIO_Pin_6);
+//F5
+	GPIO_Initstructure.GPIO_Mode=GPIO_Mode_OUT;
+	GPIO_Initstructure.GPIO_OType=GPIO_OType_PP;
+	GPIO_Initstructure.GPIO_Pin=GPIO_Pin_5;
+	GPIO_Initstructure.GPIO_PuPd=GPIO_PuPd_UP;
+	GPIO_Initstructure.GPIO_Speed=GPIO_Speed_50MHz;
+	GPIO_Init(GPIOF,&GPIO_Initstructure);
+		GPIO_SetBits(GPIOF,GPIO_Pin_5);
+//F4
+	GPIO_Initstructure.GPIO_Mode=GPIO_Mode_OUT;
+	GPIO_Initstructure.GPIO_OType=GPIO_OType_PP;
+	GPIO_Initstructure.GPIO_Pin=GPIO_Pin_4;
+	GPIO_Initstructure.GPIO_PuPd=GPIO_PuPd_UP;
+	GPIO_Initstructure.GPIO_Speed=GPIO_Speed_50MHz;
+	GPIO_Init(GPIOF,&GPIO_Initstructure);
+		GPIO_SetBits(GPIOF,GPIO_Pin_4);
+//F3
+	GPIO_Initstructure.GPIO_Mode=GPIO_Mode_OUT;
+	GPIO_Initstructure.GPIO_OType=GPIO_OType_PP;
+	GPIO_Initstructure.GPIO_Pin=GPIO_Pin_3;
+	GPIO_Initstructure.GPIO_PuPd=GPIO_PuPd_UP;
+	GPIO_Initstructure.GPIO_Speed=GPIO_Speed_50MHz;
+	GPIO_Init(GPIOF,&GPIO_Initstructure);
+		GPIO_SetBits(GPIOF,GPIO_Pin_3);
+//F2
+	GPIO_Initstructure.GPIO_Mode=GPIO_Mode_OUT;
+	GPIO_Initstructure.GPIO_OType=GPIO_OType_PP;
+	GPIO_Initstructure.GPIO_Pin=GPIO_Pin_2;
+	GPIO_Initstructure.GPIO_PuPd=GPIO_PuPd_UP;
+	GPIO_Initstructure.GPIO_Speed=GPIO_Speed_50MHz;
+	GPIO_Init(GPIOF,&GPIO_Initstructure);
+		GPIO_SetBits(GPIOF,GPIO_Pin_2);
+//F1
+	GPIO_Initstructure.GPIO_Mode=GPIO_Mode_OUT;
+	GPIO_Initstructure.GPIO_OType=GPIO_OType_PP;
+	GPIO_Initstructure.GPIO_Pin=GPIO_Pin_1;
+	GPIO_Initstructure.GPIO_PuPd=GPIO_PuPd_UP;
+	GPIO_Initstructure.GPIO_Speed=GPIO_Speed_50MHz;
+	GPIO_Init(GPIOF,&GPIO_Initstructure);
+		GPIO_SetBits(GPIOF,GPIO_Pin_1);
+//G5
+	GPIO_Initstructure.GPIO_Mode=GPIO_Mode_OUT;
+	GPIO_Initstructure.GPIO_OType=GPIO_OType_PP;
+	GPIO_Initstructure.GPIO_Pin=GPIO_Pin_5;
+	GPIO_Initstructure.GPIO_PuPd=GPIO_PuPd_UP;
+	GPIO_Initstructure.GPIO_Speed=GPIO_Speed_50MHz;
+	GPIO_Init(GPIOG,&GPIO_Initstructure);
+
+}
+

@@ -1,0 +1,6 @@
+-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\CORE -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\HARDWARE\LED -I..\FWLIB\inc -I..\HARDWARE\TIMER -I..\HARDWARE\BEEP
+-I "C:\Users\administered\Desktop\实验1 跑马灯实验\USER\RTE"
+-I D:\MDK5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include
+-I D:\MDK5\ARM\CMSIS\Include
+-D__UVISION_VERSION="514" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER
+-o ..\obj\beep.o --omf_browse ..\obj\beep.crf --depend ..\obj\beep.d "..\HARDWARE\BEEP\beep.c"

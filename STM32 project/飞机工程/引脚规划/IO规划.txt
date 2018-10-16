@@ -1,0 +1,7 @@
+蓝牙串口 TX PA9
+         RX PA10
+MPU6050串口 TX PA2
+            RX PA3 
+超声波测距模块 ECHO PA0
+               TRIG PC8
+四路PWM PA6 PA7 PB0 PB1

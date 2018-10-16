@@ -1,0 +1,22 @@
+蓝牙串口 PA9  接蓝牙RX
+              PA10 接蓝牙TX
+MPU6050 PB8 接6050 SCL
+                 PB9 接6050 SDA
+	 AD0和INT均浮空
+超声波测距模块 ECHO 接PB0 开定时器3
+                         TRIG  接PB1
+车轮PWM PA11 左轮 接PWMA 开定时器1
+                 PA8 右轮 接PWMB 开定时器1
+	AN1 PB13
+	AN2 PB12
+	BN1 PB14
+	BN2 PB15
+电机编码器  右电机红线接单片机PB6 开定时器4
+                   右电机白线接单片机PB7
+	   左电机红线接单片机PA0 开定时器2
+                   左电机白线接单片机PA1
+舵机控制信号 接PB5 开定时器3
+OLED 预留
+LED1 接PA12后串联470Ω电阻下接GND
+LED2 接PA15后串联470Ω电阻下接GND
+具体电路参考MiniBalance的原理图

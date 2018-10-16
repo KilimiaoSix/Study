@@ -1,0 +1,13 @@
+.\objects\system_stm32f0xx.o: ..\USER\system_stm32f0xx.c
+.\objects\system_stm32f0xx.o: ..\USER\stm32f0xx.h
+.\objects\system_stm32f0xx.o: ..\CORE\core_cm0.h
+.\objects\system_stm32f0xx.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\system_stm32f0xx.o: ..\CORE\core_cmInstr.h
+.\objects\system_stm32f0xx.o: ..\CORE\core_cmFunc.h
+.\objects\system_stm32f0xx.o: C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include\system_stm32f0xx.h
+.\objects\system_stm32f0xx.o: ..\USER\stm32f0xx_conf.h
+.\objects\system_stm32f0xx.o: ..\STM32F0_FWLib\inc\stm32f0xx_gpio.h
+.\objects\system_stm32f0xx.o: ..\USER\stm32f0xx.h
+.\objects\system_stm32f0xx.o: ..\STM32F0_FWLib\inc\stm32f0xx_rcc.h
+.\objects\system_stm32f0xx.o: ..\STM32F0_FWLib\inc\stm32f0xx_usart.h
+.\objects\system_stm32f0xx.o: ..\STM32F0_FWLib\inc\stm32f0xx_misc.h

@@ -1,0 +1,59 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: liu Microsoft, Microsoft, LIC=2TTCX-HPN51-9X5UW-QSRRH-D8AH8-ICFFA
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.14.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DARMCM1.DLL V1.12.0.0
+Target DLL:      Segger\JL2CM3.dll V2.99.13.0
+Dialog DLL:      TARMCM1.DLL V1.9.0.0
+ 
+<h2>Project:</h2>
+C:\Code\template\info\营销专家组\电子论坛发帖\cjson\cjson例程\Project\cjson.uvprojx
+Project File Date:  11/27/2015
+
+<h2>Output:</h2>
+Rebuild target 'cjson'
+compiling cjson.c...
+..\USER\cjson.c(55): warning:  #1293-D: assignment in condition
+        if (!(copy = (char*)cJSON_malloc(len))) return 0;
+..\USER\cjson.c(197): warning:  #1293-D: assignment in condition
+        ptr=str;while ((token=*ptr) && ++len) {if (strchr("\"\\\b\f\n\r\t",token)) len++; else if (token<32) len+=5;ptr++;}
+..\USER\cjson.c(314): warning:  #1293-D: assignment in condition
+                if (!(new_item=cJSON_New_Item())) return 0;     /* memory fail */
+..\USER\cjson.c(404): warning:  #1293-D: assignment in condition
+                if (!(new_item=cJSON_New_Item()))       return 0; /* memory fail */
+..\USER\cjson.c: 4 warnings, 0 errors
+compiling main.c...
+compiling Mcu_config.c...
+compiling stm32f0xx_it.c...
+compiling system_stm32f0xx.c...
+assembling startup_stm32f030.s...
+compiling stm32f0xx_gpio.c...
+compiling stm32f0xx_misc.c...
+compiling stm32f0xx_rcc.c...
+compiling stm32f0xx_usart.c...
+linking...
+Program Size: Code=16746 RO-data=430 RW-data=68 ZI-data=4356  
+".\Objects\cjson.axf" - 0 Error(s), 4 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  C:\Code\template\info\营销专家组\电子论坛发帖\cjson\cjson例程\Project\RTE
+  C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+</pre>
+</body>
+</html>

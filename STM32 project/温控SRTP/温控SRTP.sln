@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "温控SRTP", "温控SRTP\温控SRTP.vcxproj", "{459EBFAB-B47F-44E6-9E60-46AAB65854CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|VisualGDB = Debug|VisualGDB
+		Release|VisualGDB = Release|VisualGDB
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{459EBFAB-B47F-44E6-9E60-46AAB65854CA}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
+		{459EBFAB-B47F-44E6-9E60-46AAB65854CA}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
+		{459EBFAB-B47F-44E6-9E60-46AAB65854CA}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
+		{459EBFAB-B47F-44E6-9E60-46AAB65854CA}.Release|VisualGDB.Build.0 = Release|VisualGDB
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70EA25C6-6C58-4BF4-8874-FFCE2963DB34}
+	EndGlobalSection
+EndGlobal

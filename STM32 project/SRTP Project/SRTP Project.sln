@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SRTP Project", "SRTP Project\SRTP Project.vcxproj", "{DDFBC767-EE47-4D6F-AEAC-52B21AFE532B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|VisualGDB = Debug|VisualGDB
+		Release|VisualGDB = Release|VisualGDB
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDFBC767-EE47-4D6F-AEAC-52B21AFE532B}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
+		{DDFBC767-EE47-4D6F-AEAC-52B21AFE532B}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
+		{DDFBC767-EE47-4D6F-AEAC-52B21AFE532B}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
+		{DDFBC767-EE47-4D6F-AEAC-52B21AFE532B}.Release|VisualGDB.Build.0 = Release|VisualGDB
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D65813BE-0975-4D1C-AE19-E4FF4C1626BA}
+	EndGlobalSection
+EndGlobal
